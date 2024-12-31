@@ -4,115 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Robel Berhe Portfolio</title>
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background-color: #f9f7f2;
-        }
-
-        .container {
-            display: flex;
-            flex-direction: row;
-            height: 100vh;
-        }
-
-        .left {
-            flex: 2;
-            background-color: #fff;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: flex-start;
-            padding: 2rem;
-            position: relative;
-        }
-
-        .right {
-            flex: 1;
-            background-color: #f7c6a0;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            position: relative;
-        }
-
-        .logo {
-            position: absolute;
-            top: 1rem;
-            left: 1rem;
-            width: 40px;
-            height: 40px;
-            background-color: #000;
-            border-radius: 50%;
-        }
-
-        .navbar {
-            position: absolute;
-            top: 1rem;
-            right: 2rem;
-        }
-
-        .navbar a {
-            text-decoration: none;
-            color: white;
-            margin: 0 1rem;
-            font-size: 1rem;
-            font-weight: bold;
-        }
-
-        .intro {
-            margin-left: 1rem;
-        }
-
-        .intro h1 {
-            font-size: 4rem;
-            margin: 0;
-        }
-
-        .intro h1 span {
-            color: #f7c6a0;
-        }
-
-        .intro h2 {
-            font-size: 1.5rem;
-            margin: 0.5rem 0;
-            color: #000;
-        }
-
-        .intro h2 span {
-            color: #f08020;
-        }
-
-        .profile-pic {
-            width: 150px;
-            height: 150px;
-            background-color: #84aefc;
-            border-radius: 50%;
-        }
-    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div class="container">
         <!-- Left Section -->
-        <div class="left">
-            <div class="logo"></div>
+        <div class="left_side">
+            <img class="logo" src="assets/Princeton_logo.png" alt="Princeton Logo">
             <div class="intro">
-                <p>Hi, I am</p>
-                <h1>Robel <span>Berhe</span></h1>
-                <h2>Computer Science Major @<span> Princeton University</span></h2>
+                <div class="greeting">
+                    Hello, I am <div class="line"></div>
+                </div>
+                <div class="name-container">
+                    <div class="first-name">Robel</div>
+                    <div class="last-name">Berhe</div>
+                </div>
+                <div class="bottom-line"></div>
+                <div class="title">
+                    Computer Science Major <span class="highlight">@Princeton University</span>
+                </div>
             </div>
         </div>
 
         <!-- Right Section -->
-        <div class="right">
+        <div class="right_side">
             <div class="navbar">
                 <a href="#research">Research</a>
                 <a href="#projects">Projects</a>
                 <a href="#about">About Me</a>
             </div>
-            <div class="profile-pic"></div>
+            <div class="profile-pic-container">
+                <img src="assets/Transparent_Headshot.png" alt="Profile Picture" class="profile-pic">
+            </div>
         </div>
     </div>
 </body>
