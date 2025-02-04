@@ -27,6 +27,7 @@ a:hover {
 
 .bio {
     width:75vw;
+    margin: auto;
 }
 
 /* Footer */
@@ -34,5 +35,7 @@ footer {
     background-color: #f8f9fa;
     font-size: 14px;
     position: fixed;
+    left: 0;
     bottom: 0;
+    width: 100%;
 }
