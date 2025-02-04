@@ -1,16 +1,32 @@
-.body{
-    margin: auto;
-    margin-top: 5vh;
-    margin-bottom: 5vh;
-    width: 50%
+body {
+    font-family: 'Poppins', sans-serif;
 }
 
-.researchList{
+/* Research List Table */
+.researchList {
     margin: auto;
-    width: 75%;
+    width: 100%;
+    max-width: 900px;
 }
 
-#header{
+.researchList th, .researchList td {
+    padding: 12px;
     text-align: center;
-    height: 10vh;
+}
+
+/* Style Links */
+a {
+    color: #007bff;
+    transition: 0.2s ease-in-out;
+}
+
+a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background-color: #f8f9fa;
+    font-size: 14px;
 }
