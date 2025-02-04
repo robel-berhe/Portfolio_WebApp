@@ -1,9 +1,16 @@
 .body{
     margin: auto;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
     width: 50%
 }
 
 .researchList{
     margin: auto;
     width: 75%;
+}
+
+#header{
+    text-align: center;
+    height: 10vh;
 }
